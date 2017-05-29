@@ -58,7 +58,7 @@ public class ClienteTest extends TestCase {
                         "L'ammontare dovuto e' 5.0\n"+
                         "Hai guadagnato 1 punti per noleggi frequenti\n";
 
-        String res1 = "***";
+        String res1 = "***1717";
         for (int i = 0; i < clienti.length; i++){
             res1 += clienti[i].rendiconto();
         }
